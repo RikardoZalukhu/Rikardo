@@ -21,8 +21,8 @@ public class DataHelperuas extends SQLiteOpenHelper {
         Log.d("Data", "onCreate : " + sql);
         db.execSQL(sql);
         
-        sql = "INSERT INTO nilai (nirm, nama, mk, nilai) VALUES ('2018020153', "
-        		+ "'Rina Aulia, 'Pemrograman Mobile1', '75');";
+        sql = "INSERT INTO nilai (nirm, nama, mk, nilai) VALUES ('2018020916', "
+        		+ "'Rikardo Zalukhu , 'Pemrograman Mobile1', '75');";
         db.execSQL(sql);
 
     }
